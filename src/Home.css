@@ -1,0 +1,14 @@
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.row div{
+    margin: 5px red;
+    border: 1px;
+    padding: 5px;
+}
+
+.box{
+    @apply lg:text-3xl md:text-2xl sm:text-xl bg-orange-500 text-gray-300 font-bold m-1 p-1 border border-blue-900 rounded-lg
+}
